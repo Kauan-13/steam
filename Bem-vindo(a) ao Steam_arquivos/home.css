@@ -4892,9 +4892,16 @@ background: -webkit-linear-gradient( top, #ffffff 5%, #abdaf4 95%);
 }
 
 .carousel_container .arrow > div {
-	background-image: url(/public/images/v6/arrows.png);
-	width: 23px;
-	height: 36px;
+	position: relative;
+	top: 15%;
+	background-image: url(./arrow-right.png);
+	background-size: contain;
+	width: 24px;
+	height: 24px;
+}
+
+#left {
+	transform: rotate(180deg);
 }
 
 .carousel_container .arrow.left {
