@@ -4770,7 +4770,7 @@ body.v6 .home_rightcol .tab_preview .tab_title {
 }
 
 .tab_item_details .tab_item_top_tags {
-	color: #5e6d7c;
+	color: #ffffff;
 }
 
 .tab_preview.focus {
@@ -4808,7 +4808,7 @@ body.v6 .home_rightcol .tab_preview .tab_title {
 
 .tab_item.focus {
 background: -webkit-linear-gradient( left, #c6e6f8 5%,#95bcd3 95%);
-	background: linear-gradient( to right, #c6e6f8 5%,#95bcd3 95%);
+	background: linear-gradient( to right, #58a4d1 5%,#71abcd 95%);
 	margin-right: -18px;
 	padding-right: 14px;
 }
