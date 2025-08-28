@@ -563,11 +563,11 @@ a#store_search_link img {
 	height: 49px;
 }
 
-#store_nav_area .store_nav_bg {
-	height: 35px;
-	margin: 7px 0;
-	background: rgba( 103, 193, 245, 0.4 );
 
+#store_nav_area .store_nav_bg {
+    background: linear-gradient(90deg, #1b2838 0%, #2a475e 50%, #66c0f4 100%) !important;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
 }
 
 .store_nav {
@@ -591,8 +591,26 @@ a#store_search_link img {
     flex-grow: 1;
     flex-shrink: 0;
     max-width: 210px;
+}#store_search_button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 27px;
+    height: 28px;
+    background-color: #1d293b;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
 }
 
+#store_search_button img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
 
 .tab.active.tab_filler {
 	height: 26px;

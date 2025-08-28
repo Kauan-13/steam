@@ -4,7 +4,9 @@
 			<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta name="theme-color" content="#171a21">
 		<title>Bem-vindo(a) ao Steam</title>
-	<link rel="shortcut icon" href="https://store.steampowered.com/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
 
 	
 	
@@ -74,7 +76,7 @@
 															<a class="menuitem" href="https://store.steampowered.com/login/?redir=%3Fl%3Dportuguese&amp;redir_ssl=1&amp;snr=1_4_4__global-header">
 									Iniciar sessão								</a>
 															<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_4_4__global-responsive-menu" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
-				Loja			</a>
+				 Loja	</a>
 			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
 														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_4_4__global-responsive-menu">
 						Início											</a>
@@ -175,9 +177,9 @@ E.U.A. e outros países.								<span class="mainmenu_valve_links">
 							</span>
 		</div>
 
-			<div role="navigation" class="supernav_container" aria-label="Menu global">
-								<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_4_4__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
-				LOJA			</a>
+			<div role="navigation" class="supernav_container" aria-label="Menu global" style="margin-top: -5px;">
+								<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_4_4__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store" style="display: flex; align-items: center; gap:6px; margin-right:15px">
+				<span class="material-symbols-outlined">storefront</span> LOJA		</a>	
 			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
 														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_4_4__global-header">
 						Início											</a>
@@ -192,8 +194,8 @@ E.U.A. e outros países.								<span class="mainmenu_valve_links">
 														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_4_4__global-header">
 						Estatísticas											</a>
 							</div>
-										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
-				COMUNIDADE			</a>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community" style="display: flex; align-items: center; gap:6px; margin-right:15px">
+				<span class="material-symbols-outlined">diversity_3</span> COMUNIDADE			</a>
 			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
 														<a class="submenuitem" href="https://steamcommunity.com/">
 						Início											</a>
@@ -206,10 +208,10 @@ E.U.A. e outros países.								<span class="mainmenu_valve_links">
 														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
 						Transmissões											</a>
 							</div>
-										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_4_4__global-header">
-				Sobre			</a>
-										<a class="menuitem " href="https://help.steampowered.com/pt/">
-				SUPORTE			</a>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_4_4__global-header" style="display: flex; align-items: center; gap:6px; margin-right:15px">
+				<span class="material-symbols-outlined">info</span>Sobre			</a>
+										<a class="menuitem " href="https://help.steampowered.com/pt/" style="display: flex; align-items: center; gap:6px; margin-right:15px">
+				<span class="material-symbols-outlined">help</span>SUPORTE			</a>
 				</div>
 	<script type="text/javascript">
 		jQuery(function($) {
@@ -218,16 +220,16 @@ E.U.A. e outros países.								<span class="mainmenu_valve_links">
 	</script>
 
 		<div id="global_actions">
-			<div role="navigation" id="global_action_menu" aria-label="Menu da conta">
-									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/?snr=1_4_4__global-header">
+			<div role="navigation" id="global_action_menu" aria-label="Menu da conta" style="display: flex; flex-direction: column; justify-content: end; gap: 8px; ">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/?snr=1_4_4__global-header" style="font-size: 12px;">
 						<div class="header_installsteam_btn_content">
-							Instalar o Steam						</div>
+							Instalar Steam					</div>
 					</a>
 				
 				
-									<a class="global_action_link" href="https://store.steampowered.com/login/?redir=%3Fl%3Dportuguese&amp;redir_ssl=1&amp;snr=1_4_4__global-header">Iniciar sessão</a>
-											&nbsp;|&nbsp;
-						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">Idioma</span>
+									<a class="global_action_link" href="https://store.steampowered.com/login/?redir=%3Fl%3Dportuguese&amp;redir_ssl=1&amp;snr=1_4_4__global-header" style="display: flex; align-items: center; gap: 6px; height: 30px;"> <span class="material-symbols-outlined">login</span>Iniciar sessão</a>
+											
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );" style="margin-right: 0px;">Idioma</span>
 						<div class="popup_block_new" id="language_dropdown" style="display: none;">
 							<div class="popup_body popup_menu">
 																																					<a class="popup_menu_item tight" href="https://store.steampowered.com/?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">简体中文 (Chinês Simplificado)</a>
@@ -846,7 +848,9 @@ E.U.A. e outros países.								<span class="mainmenu_valve_links">
 											<input type="hidden" name="snr" value="1_4_4__12">
 											<div class="searchbox">
 												<input id="store_nav_search_term" name="term" type="search" class="default" placeholder="procurar" size="22" autocomplete="off" maxlength="64">
-												<a href="#" id="store_search_link" onclick="var $Form = $J(this).parents('form'); $Form.submit(); return false;" aria-label="Procurar no Steam"><img src="Bem-vindo(a)%20ao%20Steam_arquivos/blank.gif" alt=""></a>
+													<button type="submit" id="store_search_button" aria-label="Procurar no Steam">
+                   										 <img src="Bem-vindo(a) ao Steam_arquivos/lupa.png" alt="Pesquisar">
+                									</button>						
 											</div>
 										</form>
 									</div>
